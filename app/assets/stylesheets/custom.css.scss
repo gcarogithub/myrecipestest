@@ -1,0 +1,28 @@
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float:left;
+    
+}
+
+.nav_item {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    float:left;
+}
+
+.center {
+    margin-top: 86px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 25px;
+    border-top: 1px solid #eaeaea;
+    color:#777;
+}
